@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch.utils.data import DataLoader
-import torch.optim as optim
 from torchvision import models
 
 from transformers import RobertaForMaskedLM
